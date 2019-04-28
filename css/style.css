@@ -18,9 +18,21 @@ body {
   padding: 20px 20px;
   border-radius: 10px;
 }
-.magnify, .Xicon {
+.magnify, .Xicon, .bus-icon {
   height: 100%;
   width: auto;
+}
+.column-indicator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px 20px;
+  height: 73px;
+}
+h4 {
+  font-size: 25px;
+  color: #078972;
 }
 h1 {
   font-weight: bold;
@@ -32,13 +44,23 @@ h1 {
   box-sizing: border-box;
 }
 .location {
-  display: flex;
-  flex-direction: row;
   background-color: white;
   border-bottom: 1px solid gray;
-  justify-content: space-between;
-  align-items: center;
   padding: 1% 4%;
+}
+.direction-container {
+  font-size: 50px;
+  padding: 0 23%;
+}
+.route-container {
+  display: flex;
+  font-size: 20px;
+}
+.col2 {
+  padding-left:
+}
+.col3 {
+  padding-left;
 }
 .location:hover {
   background-color: #A2A2A2;
