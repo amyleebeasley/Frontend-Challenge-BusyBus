@@ -1,80 +1,183 @@
 body {
-  background-color: #333;
-  font-family: sans-serif;
-  font-size: 10px;
-  margin: 0;
-  padding: 0;
+ background-color: #333;
+ font-family: sans-serif;
+ font-size: 10px;
+ margin: 0;
+ padding: 0;
+ width: 100%;
+}
+p {
+ font-size: 2rem;
+ opacity: .5;
+ padding-bottom: 8px;
+}
+.fixed-div {
+ position: fixed;
+ width: 100%;
 }
 .top-nav{
-  background-color: #078972;
-  padding: 100px 30px 30px 30px;
+ background-color: #078972;
+ padding: 100px 30px 30px 30px;
 }
 .search-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: white;
-  height: 75px;
-  padding: 20px 20px;
-  border-radius: 10px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ background-color: white;
+ height: 75px;
+ padding: 20px 20px;
+ border-radius: 10px;
 }
 .magnify, .Xicon, .bus-icon {
-  height: 100%;
-  width: auto;
+ height: 100%;
+ width: auto;
+}
+.map {
+ height: 500px;
+ width: 100%;
+ background: grey;
 }
 .column-indicator {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: white;
-  padding: 20px 20px;
-  height: 73px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ background-color: white;
+ padding: 20px 20px;
+ height: 73px;
+ position: relative;
+ top: 34vh;
+}
 }
 h4 {
-  font-size: 25px;
-  color: #078972;
+ /* font-size: 25px; */
+ color: #078972;
 }
 h1 {
-  font-weight: bold;
-  color: #333;
-  font-size: 17px;
-  padding-bottom: 2px;
+ font-weight: bold;
+ color: #333;
+ font-size: 60px;
+ /* padding: 70px 0 0 16%; */
+ font-weight: normal;
+}
+h2 {
+ font-size: 1.5rem;
+ color: #078972;
+ font-size: 45px;
 }
 *, *:before, *:after {
-  box-sizing: border-box;
+ box-sizing: border-box;
 }
 .location {
-  background-color: white;
-  border-bottom: 1px solid gray;
-  padding: 1% 4%;
+ background-color: white;
+ border-bottom: 1px solid gray;
+ padding-bottom: 17%;
+ padding-top: 70%;
 }
 .direction-container {
-  font-size: 50px;
-  padding: 0 23%;
+ /* font-size: 50px; */
+ padding: 0 23%;
 }
+.route-container:hover {
+ background-color: #A2A2A2;
+}
+/* .content {
+ width: 80%;
+} */
+/* .container {
+ margin: 0 auto;
+ width: 420px;
+} */
+.route-list {
+ width: 100%;
+}
+/* css grid */
+
+
 .route-container {
-  display: flex;
-  font-size: 20px;
+ display: grid;
+ grid-template-columns: 16% 57% 22% 5%;
+ align-items: end;
+ padding-top: 3%;
+}
+.title {
+ padding: 70px 0 0 16%;
+}
+.flexheader {
+ display: flex;
+ justify-content: space-between;
+}
+
+.col1 {
+ grid-column: 1;
+ border-bottom: 1px black solid;
+ padding-left: 20px;
+ padding-bottom: 20px;
 }
 .col2 {
-  padding-left:
+ grid-column: 2;
+ border-bottom: 1px black solid;
+ padding-bottom: 20px;
 }
 .col3 {
-  padding-left;
+ grid-column: 3;
+ border-bottom: 1px black solid;
+ padding-bottom: 20px;
 }
-.location:hover {
-  background-color: #A2A2A2;
+.col4 {
+ grid-column: 4;
+ border-bottom: 1px black solid;
+ padding-bottom: 20px;
 }
-.content {
-  width: 80%;
+.bottom-nav {
+ position: fixed;
+ background-color: #EEEEEE;
+ bottom: 0%;
+ height: 8%;
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
 }
-.arrow {
-  padding: 19.5px 0 19.5px 17%;
+.mapbtn {
+ background-image: url(/img/mapbtn.png);
+ background-size: 65%;
+ height: 100%;
+ width: 10%;
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-color: #EEE;
+ border-color: #EEE;
 }
-.container {
-  margin: 0 auto;
-  width: 420px;
+.recentbtn {
+ background-image: url(/img/recentbtn.png);
+ background-size: 90%;
+ height: 100%;
+ width: 10%;
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-color: #EEE;
+ border-color: #EEE;
 }
-.restaurant-list {
-  width: 100%;
+.savedbtn {
+ background-image: url(/img/savedbtn.png);
+ background-size: 90%;
+ height: 100%;
+ width: 10%;
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-color: #EEE;
+ border-color: #EEE;
+}
+.profilebtn {
+ background-image: url(/img/profilebtn.png);
+ background-size: 100%;
+ height: 100%;
+ width: 10%;
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-color: #EEE;
+ border-color: #EEE;
+}
+.resumes {
+ padding-top: 7.9%;
+ padding-right: 6%;
 }
