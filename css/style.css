@@ -35,7 +35,7 @@ p {
 .map {
  height: 500px;
  width: 100%;
- background: grey;
+ background-image: url(/img/map.jpeg);
 }
 .column-indicator {
  display: flex;
@@ -46,7 +46,6 @@ p {
  height: 73px;
  position: relative;
  top: 34vh;
-}
 }
 h4 {
  /* font-size: 25px; */
