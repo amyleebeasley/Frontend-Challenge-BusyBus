@@ -35,7 +35,7 @@ p {
 .map {
  height: 500px;
  width: 100%;
- background-image: url(/img/map.jpeg);
+ background-image: url(img/map.jpeg);
 }
 .column-indicator {
  display: flex;
@@ -137,7 +137,7 @@ h2 {
  justify-content: space-around;
 }
 .mapbtn {
- background-image: url(/img/mapbtn.png);
+ background-image: url(img/mapbtn.png);
  background-size: 65%;
  height: 100%;
  width: 10%;
@@ -147,7 +147,7 @@ h2 {
  border-color: #EEE;
 }
 .recentbtn {
- background-image: url(/img/recentbtn.png);
+ background-image: url(img/recentbtn.png);
  background-size: 90%;
  height: 100%;
  width: 10%;
@@ -157,7 +157,7 @@ h2 {
  border-color: #EEE;
 }
 .savedbtn {
- background-image: url(/img/savedbtn.png);
+ background-image: url(img/savedbtn.png);
  background-size: 90%;
  height: 100%;
  width: 10%;
@@ -167,7 +167,7 @@ h2 {
  border-color: #EEE;
 }
 .profilebtn {
- background-image: url(/img/profilebtn.png);
+ background-image: url(img/profilebtn.png);
  background-size: 100%;
  height: 100%;
  width: 10%;
