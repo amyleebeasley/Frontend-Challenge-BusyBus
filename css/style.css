@@ -19,14 +19,26 @@ p {
  background-color: #078972;
  padding: 100px 30px 30px 30px;
 }
-.search-bar {
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- background-color: white;
- height: 75px;
- padding: 20px 20px;
- border-radius: 10px;
+input#search {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    text-indent: 20px;
+}
+.search-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  height: 60px;
+  padding: 10px;
+  border-radius: 10px;
+}
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
 }
 .magnify, .Xicon, .bus-icon {
  height: 100%;
