@@ -66,6 +66,14 @@ h2 {
 *, *:before, *:after {
  box-sizing: border-box;
 }
+ul.reset,
+ul.reset li,
+ul.reset ul li {
+   margin:0;
+   padding: 0;
+   text-indent: 0;
+   list-style-type: 0;
+}
 .location {
  background-color: white;
  border-bottom: 1px solid gray;
@@ -79,16 +87,10 @@ h2 {
 .route-container:hover {
  background-color: #A2A2A2;
 }
-/* .content {
- width: 80%;
-} */
-/* .container {
- margin: 0 auto;
- width: 420px;
-} */
-.route-list {
+/* .route-list {
  width: 100%;
-}
+} */
+
 /* css grid */
 
 
