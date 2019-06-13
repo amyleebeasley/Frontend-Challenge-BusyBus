@@ -47,7 +47,10 @@ input {
 .map {
  height: 500px;
  width: 100%;
- background-image: url(img/map.jpeg);
+ overflow: hidden;
+}
+.fullwidth {
+  width: 100%;
 }
 .column-indicator {
  display: flex;
