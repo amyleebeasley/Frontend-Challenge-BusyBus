@@ -152,46 +152,19 @@ ul.reset ul li {
  width: 100%;
  display: flex;
  justify-content: space-around;
+ padding-top: 35px;
 }
 .mapbtn {
- background-image: url(img/mapbtn.png);
- background-size: 65%;
- height: 100%;
- width: 10%;
- background-repeat: no-repeat;
- background-position: center center;
- background-color: #EEE;
- border-color: #EEE;
+  height: 100px;
 }
 .recentbtn {
- background-image: url(img/recentbtn.png);
- background-size: 90%;
- height: 100%;
- width: 10%;
- background-repeat: no-repeat;
- background-position: center center;
- background-color: #EEE;
- border-color: #EEE;
+  height: 100px;
 }
 .savedbtn {
- background-image: url(img/savedbtn.png);
- background-size: 90%;
- height: 100%;
- width: 10%;
- background-repeat: no-repeat;
- background-position: center center;
- background-color: #EEE;
- border-color: #EEE;
+  height: 100px;
 }
 .profilebtn {
- background-image: url(img/profilebtn.png);
- background-size: 100%;
- height: 100%;
- width: 10%;
- background-repeat: no-repeat;
- background-position: center center;
- background-color: #EEE;
- border-color: #EEE;
+  height: 100px;
 }
 .resumes {
  padding-top: 7.9%;
